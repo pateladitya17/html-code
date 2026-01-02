@@ -1,0 +1,61 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+    
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.outer{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+#ironman{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+@media(max-width: 300px){
+    #ironman{
+        background-color: green;   /* 0 to 300px background is green*/
+    }
+}
+
+@media(min-width: 300px) and (max-width: 400px){
+    #ironman{
+        background-color: pink;
+    }
+}
+
+@media(min-width: 400px) and (max-width: 600px){
+    #ironman{
+        background-color: red;
+    }
+}
+
+@media(min-width: 600px){
+    #ironman{
+        background-color: blue;
+    }
+}

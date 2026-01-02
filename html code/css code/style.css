@@ -1,0 +1,91 @@
+ #heading1{
+    color : rgb(0,255,0);
+    text-align: right;
+   text-decoration: white underline;
+   font-weight: 900;
+   font-size: 30px;
+}
+button{
+    color : rgb(255,0,0);
+    background-color : rgb(154, 141, 239);
+}
+.myclass{
+    color : rgb(255,0,255);
+    text-align: center;
+    text-decoration:black dotted underline;
+    font-weight:lighter;
+}
+body{
+    background-color :black;
+}
+
+#heading2{
+    color : #a0dfc0;
+    text-align: start;
+    text-decoration:black wavy underline;
+    font-size:xx-large;
+    
+}
+#box{
+    background-color: #0000ff;
+    color: white;
+}
+.heading{
+    color: rgb(255,0,0);
+    text-decoration:line-through;
+}
+button1{
+    background-color: green;
+}
+a{
+    text-decoration: none;
+}
+p{
+    color: rgb(14, 230, 114);
+    font-family: cursive;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+p1{
+    color: #0000ff;
+    font-family: arial;
+    line-height: normal;
+    text-transform:capitalize;
+}
+span{
+    text-align: center;
+    background-color: aqua;
+    
+   
+}
+pre{
+    text-transform: capitalize;
+    font-family: 'Times New Roman';
+    text-align: left;
+    color: antiquewhite;
+}
+#outer{
+    font-size: 25px;
+    color: #ffff00;
+}
+#inner{
+    font-size: 10px;
+    color: #a0dfc0;
+}
+div{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+   
+    padding: 50px;
+
+    border-width: 3px;
+    border-style: dashed;
+    border-color: #ff0000;
+    border-radius: 50%;
+    text-align: center;
+    margin: 25px; 
+
+
+}
+

@@ -1,0 +1,75 @@
+#b1{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    font-size: 10px;
+}
+
+#b2{
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin: 10%;
+    font-size: 2em;
+    /* 2 time of parent's font size  but in width change according itsself font size */
+}
+
+#b3{
+    height: 50px;  /* 20vh */
+    width: 30vw;
+    /* width set 30% of browser's width */
+
+    background-color: aqua;
+    font-size: 2rem;
+    /* 2 time of root element's font size , here according to body tag */
+}
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 3px dashed black;
+}
+#box1{
+    background-color: red;
+    position: static;          /*not change position*/
+    top: 20px;
+}
+#box2{
+    background-color: green;
+    position: relative;
+    top: 40px;
+    right: 30px;
+    z-index: -1;
+    /*position change from its own position */
+    
+
+              
+    
+}
+#box3{
+    background-color: aqua;
+    position: absolute; 
+    right: 40px; 
+    z-index: 2; 
+    /* change acoording its parents or ancestor*/
+                      
+}
+#box4{
+    background-color: yellow;
+    position: fixed; 
+    top: 20px; 
+    right: 0;
+    z-index: 1; 
+    background-image: url("lion_photo.jpg.jpg"); 
+    background-size: cover;    
+     /*position change according browser*/ 
+            
+}
+#box5{
+    background-color: pink;
+    position: sticky;
+    top: 0px; 
+    background-image: url("image.jpg");
+    background-size: contain;
+
+}

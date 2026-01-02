@@ -1,0 +1,64 @@
+body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+#container{
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* flex-wrap: wrap;
+    align-items: start;
+    align-content: start; */
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 150px;
+    /* align-self: flex-end; */
+}
+
+#box3{
+    background-color: darkkhaki;
+    height: 75px;
+    /* flex-shrink: 2; */
+}
+
+#box4{
+    background-color: indianred;
+    flex-grow: 2;
+}
+
+#box5{
+    background-color: slateblue;
+}
+
+#jocker{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+
+@media(min-width: 600px){
+    #jocker{
+        background-color: green;   /* 600px karta ochhi thay to yellow thai jay*/
+    }
+}
+
+@media(min-width: 500px) and (max-width: 700px){
+    #jocker{
+        background-color: red;
+    }
+}
+
